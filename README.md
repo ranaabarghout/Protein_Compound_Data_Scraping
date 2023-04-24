@@ -10,7 +10,7 @@ Scraping BRENDA for kinetic data related to substrate-enzyme complexes with info
 5. Get list of unique compounds in the dataset and convert compound names to SMILES.
 6. Clean up dataset; remove kinetic paraamter value columns. 
 7. Get the sequences and active sites for all the UniProt IDs in the dataset and add sequences to dataset.
-8. Obtain all PDB IDs and corresponding resolutions for each UniProt ID. 
+8. Obtain all PDB IDs and corresponding resolutions for each UniProt ID using the following method: https://stackoverflow.com/questions/37335759/using-python-to-download-specific-pdb-files-from-protein-data-bank
 9. Download PDB file for the highest resolution PDB IDs and save in folder. 
 10. Search through SwissProt AlphaFold database for missing PDB files in dataset. 
 11. Add column to dataset pointing to PDB file location of each datapoint. 
